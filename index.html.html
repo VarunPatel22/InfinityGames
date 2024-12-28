@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Infinity Games</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+    <body>
+        <div class="container mt-3"><br>
+            <head>
+                <br><br>
+                <style>
+                    .head{
+                        margin :20px 30px;
+                        color: white;
+                        font-size: 50px;
+                        text-shadow: 3px 3px black;
+                        background-color: black;
+                        border-radius: 5px ;
+                        font-family:fantasy;
+                    }
+                    .footer{
+                        color:whitesmoke;
+                        font-size: 40px;
+                        margin: 10px 60px;
+                        background-color: black;
+                        text-align: center;
+                    }
+        
+                    body{
+                        background-color: black;
+                        font-size: large;
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    }
+                   .slider {
+                        width: 100%;
+                        height: 700px;
+                        overflow: hidden;
+                        border-radius: 20px;
+                        border-style: groove;
+                        border-color:whitesmoke;
+                    
+                    }
+                    .slide{
+                        position: relative;
+                        width: 20%;
+                        float: left;
+                        
+                    }
+                    figure{
+                        position: relative;
+                        left: 0;
+                        width: 500%;
+                        animation: 20s slide infinite;
+                        
+                    }
+                    h1{
+                        text-align: center;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        font-style: roman;
+                        text-shadow: 2px 2px red;
+                        
+                        
+                    }
+                    .upcoming {
+                        width: 400px; height:500px;border-radius: 15px;
+  
+                    }
+                    .desc{
+                        font-size: 25px;
+                        font-style: oblique;
+                        text-decoration: underline;
+                        
+                    }
+                    .image{
+                        transition: transform 0.2s ease in ease-in-out,box-shadow 0.3s ease-in-out;
+                        box-shadow: 0px 4px 10px black;             
+                    }
+                    .image:hover{
+                        transform: translate(-5px);
+                        box-shadow: 0px 8px 20px white;
+                        border-radius: 15px;
+                    }
+                    @keyframes slide{
+                        0%{
+                            left:0;
+                        }
+                        10%{
+                            left:0;
+                        }
+                        20%{
+                            left:-100%;
+                        }
+                        30%{
+                            left:-100%;
+                        }
+                        40%{
+                            left:-200%;
+                        }
+                        50%{
+                            left:-200%;
+                        }
+                        55%{
+                            left: -300%;
+                        }
+                        65%{
+                            left: -300%;
+                        }
+                        66%{
+                            left: -200%;
+                        }
+                        74%{
+                            left: -200%;
+                        }
+                        75%{
+                            left: -100%;
+                        }
+                        85%{
+                            left: -100%;
+                        }
+                        90%{
+                            left: 0;
+                        }
+                        100%{
+                            left: 0;
+                        }
+
+                        
+                    }
+                    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color:black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+}
+
+                </style>
+               <header>
+                <div class="logo">Infinity Games</div>
+                <nav>
+                    <ul>
+                        <li><a href="developers.html">Upload Games</a></li>
+                        <li><a href="gamers.html">Purchase Games</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                </nav>
+            </header>
+                
+            <div class="slider">
+
+           <figure>
+               <div class="slide">
+                    <img src="farcry-6.avif" alt="Click to visit website" style="width:1300px; height:auto;">
+                </div>
+                <div class="slide">
+                    <img src="detroit.jpg" alt="Click to visit website" style="width:1300px; height:auto;">
+                </div>
+                <div class="slide">
+                    <img src="wukong-2.jpg" alt="Click to visit website" style="width:1300px; height:auto;">
+                </div>
+                <div class="slide">
+                    <img src="ghost of tsushima.jpg" alt="Click to visit website" style="width:1300px; height:auto;">
+                </div>
+            </figure>
+            </div> 
+            </div>
+            <br><br><br><br>
+            <font color="white">
+            <h1>Trending Games</h1>
+        </font>
+        <br><br>
+        <div class="container mt-3">
+        <div class="row">
+            <div class="col p-3 bg-black">
+                <a href="https://store.epicgames.com/en-US/p/destiny-2">
+                    <div class="image">
+                <img src="Destiny.webp" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+            </div>
+            </a>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <a href="https://store.epicgames.com/en-US/p/fortnite">
+                    <div class="image">
+                <img src="fortnite2.jpg"alt="photo"style="width:400px;height:500px;border-radius: 15px;">
+            </div>
+            </a>
+            </div>
+            <div class="col p-3 bg-black text-white">
+            <a href="https://store.epicgames.com/en-US/p/lego-brawls">
+                <div class="image">
+                <img src="lego.avif" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+            </div>
+            </a>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <a href="https://store.epicgames.com/en-US/p/soulmask-cc7a7c">
+                    <div class="image">
+                <img src="soulmask.webp" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+            </div>
+            </a>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <a href="https://store.epicgames.com/en-US/p/god-of-war-ragnarok-3ca641">
+                    <div class="image">
+                <img src="god of war ragnarok.avif" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+            </div>
+            </a>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <a href="https://store.epicgames.com/en-US/p/hitman-3--access-pass-hitman-2-expansion-01">
+                    <div class="image">
+                <img src="hitman.png" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+            </div>
+            </a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <font color="white">
+        <h1>Upcoming Games</h1>
+    </font><br><br>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col p-3 bg-black text-white">
+                <img src="assasain creed.jpg" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+                <div class="desc">
+                    Platforms:(PC, Xbox, PS5)<br>
+                    Release Date:February 14, 2025
+                </div>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <img src="ghost of yotei.jpg"alt="photo"style="width:400px;height:500px;border-radius: 15px;">
+                <div class="desc">
+                    Platforms:(PS5)<br>
+                    Release Date:(TBC)2025
+                </div>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <img src="ARK_2.webp" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+                <div class="desc">
+                    Platforms:(PC, Xbox)<br>
+                    Release Date:(TBC)2024
+                </div>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <img src="death stranding.jpg" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+                <div class="desc">
+                    Platforms:(PS5, Xbox)<br>
+                    Release Date:(TBC)2024
+                </div>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <img src="gta-vi.jpg" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+                <div class="desc">
+                    Platforms:(PS5, Xbox)<br>
+                    Release Date:(TBC)2024
+                </div>
+            </div>
+            <div class="col p-3 bg-black text-white">
+                <img src="doom the dark ages.jpeg" alt="photo" style="width: 400px; height:500px;border-radius: 15px;">
+                <div class="desc">
+                    Platforms:(PS5, Xbox)<br>
+                    Release Date:(TBC)2024
+                </div>
+            </div>
+        </div>
+       
+            </div>
+            <footer class="footer">
+                <p>Level up your gaming experience! </p>
+            </footer>
+        </head>
+    </body>
+</html>
