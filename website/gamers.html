@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .topnav{
+  background-color: black;
+ overflow: hidden;
+ }
+.topnav a{
+ float: left;
+ color: aliceblue;
+ text-align: center;
+ margin: 20px 40px;
+ font-size: 22px;
+ }
+  .h2{
+    font-size: 30px;
+    margin: 10px 2px;
+    color: aliceblue;
+  }
+  .h1{
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow:4px 4px rgb(8, 44, 95) ;
+  }
+.container {
+  position: relative;
+  width: 50%;
+}
+body{
+    background-image: url(bg\ image3.jpg);
+    background-size: 100% 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+   margin:150px 450px;
+   border-radius: 20px;
+}
+.image2{
+margin: 200px 450px;
+width: 100%;
+height: auto;
+display: block;
+border-radius: 20px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(8, 44, 95);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  margin: 1px 450px;
+  border-radius: 20px;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+div.image3 {
+  margin: 25px 200px;
+  float: left;
+  width: 180px;
+  border-radius: 20px;
+
+}
+.button{
+  font-size: 20px;
+  color: aliceblue;
+  background: rgb(8, 44, 95);
+  cursor: pointer;
+}
+div.image4{
+  width :180px;
+  float: left;
+  margin: 25px 500px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color:black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff4500;
+}
+    .button {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+.button:hover {
+    background-color: blue;
+    color: #000;
+    transform: scale(1);
+    transition: 0.3s ease;
+}
+
+</style>
+<header>
+  <div class="logo">Infinity Games</div>
+  <nav>
+      <ul>
+          <li><a href="infinitygames.html">Home</a></li>
+          <li><a href="developers.html">Upload Games</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="about.html">About us</a></li>
+      </ul>
+  </nav>
+</header>
+</head>
+<body>
+<h1 class="h1">Indie Games</h1>
+<div class="container">
+  
+  <img src="wonhon.png" alt="image" class="image">
+  <div class="overlay">
+    
+    <div class="text" style="font-style:inherit; font-size: 22px;">Genres:Action,Adventure,Indie<br><br>
+        Features:Single Player<br><br>
+        About the game:
+        Set in an alternative 1920s era Korea, Wonhon is a story of a murdered girl <br>who returns to the realm of the living to exact revenge.<br><br>
+        A thrilling storyline:<br>
+        The girl can take life force (Qi) from living creatures,<br> turn into a ghost and possess them to exact her revenge. <br>
+        She dispenses justice with her killers' own hands.
+    </div>
+  </div>
+</div>
+<div class="container">
+    <img src="zelenstroy.png" alt="image" class="image2">
+    <div class="overlay">
+        <div class="text" style="font-size: 22px; font-style: inherit;">Genres:Horror,Indie<br><br>
+            Features:Single Player<br><br>
+            About the game:
+            Dive into the chilling story of a simple man.<br>
+            The story of a simple man who found himself in the wrong place. <br>With a not very happy ending. Believe me,<br> this will not leave you
+            indifferent.<br><br>
+            Complete location identity:
+            Created with maximum identity to a real local enterprise
+            </div>
+</div>
+</div>
+<h1 class="h1">Action Games</h1>
+  <div class="image3">
+    <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+      <img src="control.avif" alt="image" width="600" height="700" class="image3">
+  
+    </a>
+    <h2 class="h2">Cost:2,161rs</h2>
+    <a href="https://store.epicgames.com/en-US/p/control">
+    <button type="purchase" class="button">Purchase Game</button>
+  </a>
+  </div>
+</div>
+<div class="image4">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="RDR2.jpg" alt="image" width="600" height="700" class="image4">
+  </a>
+  <h2 class="h2">Cost:4,999rs</h2>
+  <a href="https://store.epicgames.com/en-US/p/red-dead-redemption-2">
+  <button type="purchase" class="button">Purchase Game</button>
+</a>
+</div>
+</div>
+<div class="image3">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="resident-evil.avif" alt="image" width="600" height="700" class="image3">
+  </a>
+  <h2 class="h2">Cost:2,619rs</h2>
+  <a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">
+  <button type="purchase" class="button">Purchase Game</button>
+</a>
+</div>
+</div>
+<div class="image4">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="god of war ragnarok.avif" alt="image" width="600" height="700" class="image4">
+  </a>
+  <h2 class="h2">Cost:3,999rs</h2>
+  <a href="https://store.epicgames.com/en-US/p/god-of-war-ragnarok-3ca641">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<h1 class="h1">Survival Games</h1>
+<div class="image3">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="minecraft.jpg" alt="image" width="600" height="700" class="image3">
+  </a>
+  <h2 class="h2">Cost:29.99$</h2>
+  <a href="https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<div class="image4">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="Subnautica-Below-Zero.jpg" alt="image" width="600" height="700" class="image4">
+  </a>
+  <h2 class="h2">Cost:1,499rs</h2>
+  <a href="https://store.epicgames.com/en-US/p/subnautica-below-zero">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<div class="image3">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="ark.jpeg" alt="image" width="600" height="700" class="image3">
+  </a>
+  <h2 class="h2">Cost:539rs</h2>
+  <a href="https://store.epicgames.com/en-US/p/ark">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<div class="image4">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="p-don-t-starve.webp" alt="image" width="600" height="700" class="image4">
+  </a>
+  <h2 class="h2">Cost:459rs</h2>
+  <a href="https://store.steampowered.com/app/322330/Dont_Starve_Together/">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<h1 class="h1">Simulation Games</h1>
+<div class="image3">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="city skylines.avif" alt="image" width="600" height="700" class="image3">
+  </a>
+  <h2 class="h2">Cost:1,599rs</h2>
+  <a href="https://store.epicgames.com/en-US/p/cities-skylines">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<div class="image4">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="cyberpunk.webp" alt="image" width="600" height="700" class="image4">
+  </a>
+  <h2 class="h2">Cost:3,205rs</h2>
+  <a href="https://store.epicgames.com/en-US/p/cyberpunk-2077">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<div class="image3">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="dragons dogma.jpg" alt="image" width="600" height="700" class="image3">
+  </a>
+  <h2 class="h2">Cost:1,799rs</h2>
+  <a href="https://store.steampowered.com/app/367500/Dragons_Dogma_Dark_Arisen/">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+<div class="image4">
+  <a target="video" href="https://youtu.be/F74LLDhAhhI?si=JtGoUfHOInfIWDvq">
+    <img src="elden-ring.jpg" alt="image" width="600" height="700" class="image4">
+  </a>
+  <h2 class="h2">Cost:3,599rs</h2>
+  <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/">
+  <button type="purchase" class="button">Purchase Game</button><br><br>
+</a>
+</div>
+</div>
+
+</body>
+</html>
